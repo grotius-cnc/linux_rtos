@@ -13,6 +13,8 @@ Debian 10 Buster - 4.19.0-11-rt-amd64 kernel
 Iso download 1.7 gb :
 https://github.com/grotius-cnc/LINUX_RTOS/releases/tag/1.0.0
 
+During installtion, keep root password entry empty !
+
 After installation, select the Ethercat_installer desktop launcher. This will auto install the ethercat bus.
 Done.
 
@@ -23,9 +25,13 @@ During installation of the iso cd, you could use usb tethering for internet conn
 your cat4 connection.
 
 After iso installation, select the Ethercat_installer desktop launcher. This will auto install the ethercat bus. Bus lights will be flickering fast during
-ethercat bus installation. If not, restart pc after installation. The ethercat installation could be done over again without concequences. If you have custom lcec drivers, save them outside the /usr/share/ethercat directory.
+ethercat bus installation. If not, restart pc after installation. 
 
-After the ethercat installation the lcec will show up in Linuxcnc halshow. Add your I/O modules to your needs in the linuxcnc_axis desktop map ethercat-conf.xml.
+The ethercat installation could be done over again without concequences. 
+If you have custom lcec drivers, save them outside the /usr/share/ethercat directory.
+
+After the ethercat installation, start the linuxcnc desktop launcher, the lcec will show up in Linuxcnc "show hal configuration". 
+Add your I/O modules to your needs in the linuxcnc_axis desktop map ethercat-conf.xml.
 Connect your I/O modules to linuxcnc in the hal file, in this axis-qtvcp example it uses the qtvcp_postgui.hal file to connect the ethercat I/O
 
 Ethercat source : $ /usr/share/ethercat
