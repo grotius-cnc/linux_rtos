@@ -49,7 +49,7 @@ More recource files for building live-build's :
 
 In short, the live build commands are :
 
- -#!/bin/bash
+ - #!/bin/bash
  - apt-get install live-build
  - lb clean
  - lb config
