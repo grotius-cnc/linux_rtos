@@ -49,8 +49,9 @@ More recource files for building live-build's :
 
 In short, the live build commands are :
 
-  - apt-get install live-build
-  - lb clean
-  - lb config
-  - # add packages and config here, see setup_iso.sh
-  - lb build
+ -#!/bin/bash
+ - apt-get install live-build
+ - lb clean
+ - lb config
+ - add packages and config here, see setup_iso.sh
+ - lb build
