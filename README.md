@@ -18,7 +18,7 @@ Done.
 
 * User info :
 
-The configuration to check the working ethercat bus is done with the Beckhoff EK1100 module. You can connect this device during installing the iso cd.
+The configuration to check the working ethercat bus is done with the Beckhoff EK1100 module. You can connect this device before installing the iso cd.
 During installation of the iso cd, you could use usb tethering for internet connection to setup your nearest download mirror while the ethercat bus uses
 your cat4 connection.
 
