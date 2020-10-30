@@ -1,6 +1,8 @@
 # LINUX_RTOS 
 Debian 10 Buster - 4.19.0-11-rt-amd64 kernel
 
+Keep root/administrator password empty during install. Only fill in the user name and password.
+
 ![alt text](https://github.com/grotius-cnc/LINUX_RTOS/blob/main/screenshot_800.png)
 
 - Libreoffice
