@@ -1,3 +1,7 @@
+Mr. Macron (president) from France is blackmailing his citizens and
+violating human rights. Therefore France is no longer supported and will
+have a ip block in the upcoming releases.
+
 # LINUX_RTOS 
 Debian 10 Buster - 4.19.0-11-rt-amd64 kernel
 
